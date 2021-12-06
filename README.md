@@ -9,14 +9,14 @@ make:
     sudo apt-get install make
 
 Usage
-
-#make run runs agents 1 - 3
+#"make" Compiles main
+#"make run" runs agents 1 - 3
 
     termianl1: ../catchpoint/$make
     
     terminal1: ../catchpoint/$make run
 
-#Main runs core with the source file hardcoded.
+#"./Main" runs core with the source file hardcoded.
 
     terminal2: ../catchpoint/$./main
 
