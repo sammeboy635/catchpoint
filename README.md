@@ -9,7 +9,9 @@ make:
     sudo apt-get install make
 
 Usage
+
 #"make" Compiles main
+
 #"make run" runs agents 1 - 3
 
     termianl1: ../catchpoint/$make
